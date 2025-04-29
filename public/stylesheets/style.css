@@ -1,0 +1,138 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.caixa-publi{
+text-align: center;
+background-color: rgb(90, 92, 94);
+padding: 50px;
+}
+
+.container-fluid{
+  background-color: #133a86;
+  height: 100%;
+  margin-top: -10px;
+}
+
+.banner{
+  width: 150px;
+}
+
+.fundo-gif img{
+  height: 100%;
+  width: 100%;
+  filter: blur(8px); /* Aplica o desfoque ao GIF */
+}
+
+.titulo{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+
+  text-align: center;
+  z-index: 1;
+  font-size: 3em; /* Aumenta o tamanho da fonte */
+  font-weight: 800; /* Aumenta a espessura da fonte */
+  font-family: Arial, sans-serif; /* Define a fonte desejada */
+}
+
+.botao{
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  background-color: #133a86;
+  padding: 15px;
+  border-radius: 30px;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  z-index: 1;
+  font-size: 1.5em; /* Aumenta o tamanho da fonte */
+  font-weight: 800; /* Aumenta a espessura da fonte */
+  font-family: Arial, sans-serif; /* Define a fonte desejada */
+}
+.botao:hover {
+  background-color: #225dd4;
+}
+
+ul a{
+  text-decoration: none;
+  color: white;
+}
+
+p{
+  text-decoration: none;
+  color: white;
+}
+
+.cards{
+  background-color: rgb(35, 34, 34);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px !important;
+  width: 60%;
+  margin: 0 auto;         /* Centraliza horizontalmente */
+  padding: 20px;
+}
+
+.cards img{
+  width: 100% !important;
+}
+
+h2{
+  background-color: rgb(97, 97, 97);
+  padding: 10px;
+}
+
+.comentarios{
+  background-color: #00B7FF;
+  background-color: #133a86;
+  padding: 15px;
+  border-radius: 30px;
+  color: #fff;
+  width: 100px;
+  display: inline;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 50px;
+  font-size: 1em; /* Aumenta o tamanho da fonte */
+  font-weight: 800; /* Aumenta a espessura da fonte */
+  font-family: Arial, sans-serif; /* Define a fonte desejada */
+}
+
+.visualizar{
+  background-color: rgb(35, 34, 34);
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 30px !important;
+  width: 60%;
+  margin: 0 auto;         /* Centraliza horizontalmente */
+  padding: 20px;
+}
+.visualizar h1{
+  color: white;
+}
+
+.visualizar{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  font-size: 1em; /* Aumenta o tamanho da fonte */
+  font-weight: 800; /* Aumenta a espessura da fonte */
+  font-family: Arial, sans-serif; /* Define a fonte desejada */
+}
+
+.descricao{
+  margin-bottom: 50px;
+}
