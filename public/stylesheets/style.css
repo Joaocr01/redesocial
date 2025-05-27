@@ -10,8 +10,12 @@ a {
 text-align: center;
 background-color: rgb(90, 92, 94);
 padding: 50px;
+margin-top: 10x !important;
 }
 
+.caixa-publi img{
+  margin-top: 100x !important;
+  }
 .container-fluid{
   background-color: #133a86;
   height: 100%;
